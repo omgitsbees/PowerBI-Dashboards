@@ -4,4 +4,6 @@ Pre & Post-Pandemic Ridership for New York City
 
 ![Screenshot 2024-11-12 143820](https://github.com/user-attachments/assets/8c6bc5ee-cae9-4eaf-865d-51b0861e7837)
 
+![Screenshot 2024-11-12 145305](https://github.com/user-attachments/assets/ca60a657-6178-4ace-b7f4-96a8e2eef4c5)
+
 ------------------------------------------------------------------------------------------------------------------
