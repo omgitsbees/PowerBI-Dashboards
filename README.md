@@ -8,10 +8,10 @@ Maven Analytics Community Challenge - Maven Commuter Challenge: https://mavenana
 
 ![Screenshot 2024-11-12 145305](https://github.com/user-attachments/assets/ca60a657-6178-4ace-b7f4-96a8e2eef4c5)
 
-
 1. Trend Analysis Over Time
 
     Track the ridership and traffic data to see how various transportation modes have recovered over time relative to pre-pandemic levels.
+
 SELECT 
     Date,
     AVG(`Subways: % of Comparable Pre-Pandemic Day`) AS avg_subways_percentage,
