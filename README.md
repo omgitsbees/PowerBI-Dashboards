@@ -24,5 +24,20 @@ GROUP BY
 ORDER BY 
     Date;
 
+2. Identify Peak Usage Days
 
+    Find the days with the highest estimated ridership for each transportation mode. This can be useful to understand peak days and periods.
+
+SELECT 
+    Date,
+    MAX(`Subways: Total Estimated Ridership`) AS max_subways_ridership,
+    MAX(`Buses: Total Estimated Ridership`) AS max_buses_ridership,
+    MAX(`Bridges and Tunnels: Total Traffic`) AS max_bridges_traffic
+FROM 
+    omgitsbeesdata.DailyRidership.Ridership
+GROUP BY 
+    Date
+ORDER BY 
+    max_subways_ridership DESC
+LIMIT 10;
 ------------------------------------------------------------------------------------------------------------------
