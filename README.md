@@ -8,8 +8,6 @@ Maven Analytics Community Challenge - Maven Commuter Challenge: https://mavenana
 
 ![Screenshot 2024-11-12 145305](https://github.com/user-attachments/assets/ca60a657-6178-4ace-b7f4-96a8e2eef4c5)
 
-![Screenshot 2024-11-12 160716](https://github.com/user-attachments/assets/657e039f-495e-4508-ad6a-edcf0581c3f7)
-
 ![Screenshot 2024-11-12 154421](https://github.com/user-attachments/assets/9d7617ba-a6fa-4f90-b89e-71170b5007bc)
 
 ![Screenshot 2024-11-12 154445](https://github.com/user-attachments/assets/e8622a07-dd83-41b8-9cf5-a7f6abaed94c)
