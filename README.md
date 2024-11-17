@@ -2,7 +2,7 @@ Maven Rail Challenge: https://mavenanalytics.io/challenges/maven-rail-challenge/
 
 This dashboard was created entirely in Python using Visual Studio Code. 
 
-
+![Screenshot 2024-11-17 131348](https://github.com/user-attachments/assets/a7295877-3f70-43ac-8778-68296480a62d)
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -40,7 +40,6 @@ Maven Analytics Community Challenge - Maven Commuter Challenge: https://mavenana
 
 ![Screenshot 2024-11-12 154516](https://github.com/user-attachments/assets/811ee531-0f45-4e11-8980-25c4523892b4)
 
-
-------------------------------------------------------------------------------------------------------------------
 ![Screenshot 2024-11-13 123038](https://github.com/user-attachments/assets/c2f80b81-0688-4046-8c0c-819e1aee676d)
+
 ![Screenshot 2024-11-13 123055](https://github.com/user-attachments/assets/1bd10224-9ce9-4927-83f4-f72e5cacfa5d)
