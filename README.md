@@ -2,6 +2,17 @@ Maven Rail Challenge: https://mavenanalytics.io/challenges/maven-rail-challenge/
 
 This dashboard was created entirely in Python using Visual Studio Code. 
 
+Libraries:
+import pandas as pd
+
+from datetime import datetime
+
+import dash
+
+from dash import dcc, html, Input, Output
+
+import plotly.express as px
+
 ![Screenshot 2024-11-17 131348](https://github.com/user-attachments/assets/a7295877-3f70-43ac-8778-68296480a62d)
 
 ------------------------------------------------------------------------------------------------------------------
