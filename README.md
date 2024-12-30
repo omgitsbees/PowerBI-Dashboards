@@ -1,3 +1,13 @@
+Maven Market Challenge: https://mavenanalytics.io/challenges/maven-market-challenge/c50a4f9e-1bde-433d-99bd-6436d8ed98e6
+
+![Screenshot 2024-12-30 134749](https://github.com/user-attachments/assets/b33fad7a-f6d1-432d-8725-8ff67aed6b1c)
+
+![Screenshot 2024-12-30 134800](https://github.com/user-attachments/assets/1769c4ab-071d-4aa1-898d-ac1658f87146)
+
+![Screenshot 2024-12-30 134812](https://github.com/user-attachments/assets/054b8cb5-305a-44a6-9e54-6d47b8e514c3)
+
+------------------------------------------------------------------------------------------------------------------
+
 Maven Rail Challenge: https://mavenanalytics.io/challenges/maven-rail-challenge/08941141-d23f-4cc9-93a3-4c25ed06e1c3
 
 This dashboard was created entirely in Python using Visual Studio Code. 
