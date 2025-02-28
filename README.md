@@ -1,3 +1,9 @@
+Maven Spotify Streaming History: https://mavenanalytics.io/data-playground 
+
+![Screenshot 2025-02-27 130125](https://github.com/user-attachments/assets/78c91ecc-8327-4f72-9178-ba2bea7cb3a6)
+
+------------------------------------------------------------------------------------------------------------------
+
 Maven Market Challenge: https://mavenanalytics.io/challenges/maven-market-challenge/c50a4f9e-1bde-433d-99bd-6436d8ed98e6
 
 ![Screenshot 2024-12-30 134749](https://github.com/user-attachments/assets/b33fad7a-f6d1-432d-8725-8ff67aed6b1c)
