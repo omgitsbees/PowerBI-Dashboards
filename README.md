@@ -1,3 +1,7 @@
+![Screenshot 2025-03-21 150348](https://github.com/user-attachments/assets/18513ef4-dd36-4d20-bc17-421ea9535eb8)
+
+------------------------------------------------------------------------------------------------------------------
+
 Maven Spotify Streaming History: https://mavenanalytics.io/data-playground 
 
 ![Screenshot 2025-02-27 130125](https://github.com/user-attachments/assets/78c91ecc-8327-4f72-9178-ba2bea7cb3a6)
