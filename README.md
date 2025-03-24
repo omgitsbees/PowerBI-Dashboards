@@ -1,3 +1,67 @@
+![Screenshot 2025-03-24 145707](https://github.com/user-attachments/assets/5c9f34c1-6cae-4e7a-9133-dcc41b120260)
+![Screenshot 2025-03-24 145721](https://github.com/user-attachments/assets/b1d405b5-5139-4e8f-9476-2168150f7ec9)
+![Screenshot 2025-03-24 145737](https://github.com/user-attachments/assets/8de533df-ddad-4cab-8299-52122cd54c4a)
+![Screenshot 2025-03-24 145748](https://github.com/user-attachments/assets/f1ff0e80-ebf1-44be-a64e-cb779606c870)
+![Screenshot 2025-03-24 145628](https://github.com/user-attachments/assets/41f64241-af29-4f79-9458-07981c40d201)
+
+DAX & Measures:
+
+Primary Buyer = AND(Customer[Cars Owned] = 0, Customer[Home Owner] = "No")
+
+Secondary Buyer = OR(Customer[Cars Owned] = 0, Customer[Home Owner] = "No")
+
+Full Name = Customer[First Name] & " " & Customer[Last Name]
+
+Order Date Year = Format('Order Date'[Order Date], "YYYY")
+
+Order Date Month = Format('Order Date'[Order Date], "MMM")
+
+Order Date = CALENDAR(Min(Sales[Order Date]), Max(Sales [Order Date]))
+
+Color Category = IF('Product'[Color] IN {"Black", "Blue", "Red"}, "Darker", "Lighter")
+
+Count of ALL Sales Orders Line Items = COUNTROWS(ALL (Sales))
+
+Count of Sales Orders = DISTINCTCOUNT (Sales[Sales Order Number])
+
+Count of Sales Orders Line Items = COUNTROWS (Sales)
+
+Count of Sales Orders Line Items GT 50 = COUNTROWS(FILTER (Sales, Sales[Line Total Sales] > 50 ) )
+
+Line Margin = Sales[Line Total Sales] - Sales[Line Product Cost]
+
+Line Margin % = DIVIDE(Sales[Line Margin], Sales[Line Total Sales], 0)
+
+Line Product Cost = Sales[Order Quantity] * RELATED('Product'[Standard Cost])
+
+PCT Sales Orders Line Items All Time = DIVIDE([Count of Sales Orders Line Items], [Count of ALL Sales Orders Line Items], 0)
+
+PY Total Sales = CALCULATE([TOtal Sales], SAMEPERIODLASTYEAR('Order Date'[Order Date]))
+
+QTD Sales = TOTALQTD([Total Sales], 'Order Date'[Order Date])
+
+Target = 7000000
+
+Total Margin = SUM(Sales[Line Margin])
+
+Total Margin % = DIVIDE([Total Margin], [Total Sales], 0)
+
+Total Sales = SUM (Sales [Line Total Sales])
+
+Total Sales SUMX = SUMX(Sales, (Sales [Unit Price] * Sales[Order Quantity]))
+
+YTD Sales = TOTALYTD([Total Sales], 'Order Date' [Order Date])
+
+Total Sales YoY% = 
+VAR __PREV_YEAR =
+    CALCULATE ( [Total Sales], DATEADD ( 'Order Date'[Order Date], -1, YEAR ) )
+RETURN
+    DIVIDE ( [Total Sales] - __PREV_YEAR, __PREV_YEAR )
+
+
+
+------------------------------------------------------------------------------------------------------------------
+
 ![Screenshot 2025-03-21 150348](https://github.com/user-attachments/assets/18513ef4-dd36-4d20-bc17-421ea9535eb8)
 
 ------------------------------------------------------------------------------------------------------------------
