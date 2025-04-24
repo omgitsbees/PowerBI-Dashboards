@@ -2,6 +2,8 @@
 
 ![Screenshot 2025-04-24 135125](https://github.com/user-attachments/assets/01989c83-2ea5-4820-a473-db7ec5870e16)
 
+Created based on Upwork job posting, used Python to create my own data based on tables listed https://www.upwork.com/jobs/~021915454583394520149
+
 ------------------------------------------------------------------------------------------------------------------
 
 ![Screenshot 2025-03-24 145707](https://github.com/user-attachments/assets/5c9f34c1-6cae-4e7a-9133-dcc41b120260)
